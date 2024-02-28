@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Number</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./imagens/lista tel.png" alt="Listed">
+            <h1>Lista telefonica</h1>
+        </header>
+        <form id="tabelaa">
+            <input type="text" id="nome-pessoa" required placeholder="Nome">
+            <input type="tel" id="numero-pessoa" required placeholder="Telefone" />
+            <button  type="submit"> Salvar contato </button>
+        </form> 
+        <table cellspacing="0"  class="nome">
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Número
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr class="contato">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
